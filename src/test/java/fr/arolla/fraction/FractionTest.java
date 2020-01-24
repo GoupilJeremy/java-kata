@@ -10,6 +10,7 @@ public class FractionTest {
     public void should_throw_if_denominator_equals_0() {
         try {
             final Fraction f = new Fraction(1, 0);
+            throw new Exception("Red test");
         } catch(Exception exception) {
             assertThat(exception).isExactlyInstanceOf(Fraction.ZeroDenominatorException.class);
         }
