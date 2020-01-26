@@ -8,7 +8,7 @@ public class Game {
         ONE("Player 1"),
         TWO("Player 2");
 
-        private String name = "";
+        private String name;
 
         Player(String name) {
             this.name = name;
@@ -44,7 +44,7 @@ public class Game {
     }
 
     private void incrementScore(Player player) {
-        this.scores.put(player, this.scores.get(player) + 1);
+        this.scores.replace(player, this.scores.get(player) + 1);
     }
 
     private boolean isDeuce() {
@@ -56,8 +56,8 @@ public class Game {
     }
 
     private void resetToDeuce() {
-        this.scores.put(Player.ONE, 3);
-        this.scores.put(Player.TWO, 3);
+        this.scores.replace(Player.ONE, 3);
+        this.scores.replace(Player.TWO, 3);
     }
 
     private boolean playerHasAdvantage(Player player) {

@@ -1,6 +1,5 @@
 package fr.arolla.fizzbuzz;
 
-import fr.arolla.fizzbuzz.FizzBuzz;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
