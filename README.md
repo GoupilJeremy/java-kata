@@ -20,7 +20,7 @@ For a given natural number greater than zero, you must return:
 
 `level: * *`, `baby steps`, `immutability`, `third-part library`
 
-Write a program that implements the addition of fractions. A Fraction is value object, once created it cannot be mutated. The add method must return a new Fraction instance. Fraction must be reduced.
+Write a program that implements the addition of fractions. A Fraction is a value object, once created it cannot be mutated. The `add method must return a new Fraction instance. Fractions must be reduced.
 
 An implementation of the greatest common divisor (GCD) is provided:
 ```
@@ -28,6 +28,12 @@ static int gcd(int a, int b) {
   return b == 0 ? a : gcd(b, a % b); 
 }
 ```
+
+## Coffee machine
+
+`* * *`, `hexagonal architecture`, `test doubles`, `emerging design`
+
+https://simcap.github.io/coffeemachine/
 
 ## Tennis
 
@@ -65,16 +71,14 @@ X   61  5/  7/  X   X   8/  81  X   XXX  (rolls)
 17  24  41  61  89  109 127 136 166 196  (points)
 ```
 
-## Bank
+## To do
+
+### Bank
 
 https://github.com/sandromancuso/Bank-kata
 
-## Greeting
+### Greeting
 
 https://github.com/testdouble/contributing-tests/wiki/Greeting-Kata
 
-## Train reservation
-
-## Coffee machine
-
-https://simcap.github.io/coffeemachine/
+### Train reservation
