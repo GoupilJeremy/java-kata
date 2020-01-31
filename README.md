@@ -29,11 +29,24 @@ static int gcd(int a, int b) {
 }
 ```
 
+## Greeting
+
+`level: * * *`, `emerging design`
+
+https://github.com/testdouble/contributing-tests/wiki/Greeting-Kata
+
+
 ## Coffee machine
 
-`* * *`, `hexagonal architecture`, `test doubles`, `emerging design`
+`level: * * *`, `hexagonal architecture`, `test doubles`, `emerging design`
 
 https://simcap.github.io/coffeemachine/
+
+## Bank
+
+`level: * * *`
+
+https://github.com/sandromancuso/Bank-kata
 
 ## Tennis
 
@@ -70,15 +83,3 @@ Example:
 X   61  5/  7/  X   X   8/  81  X   XXX  (rolls)
 17  24  41  61  89  109 127 136 166 196  (points)
 ```
-
-## To do
-
-### Bank
-
-https://github.com/sandromancuso/Bank-kata
-
-### Greeting
-
-https://github.com/testdouble/contributing-tests/wiki/Greeting-Kata
-
-### Train reservation
